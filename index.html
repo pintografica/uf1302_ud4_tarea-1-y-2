@@ -3,20 +3,20 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Imágenes en HTML5</title>
     </head>
     <body style="background-color: darkolivegreen">
         <header style="background-color: lightgreen; border: 2px solid; text-align: center; margin: 1em">
-            <h1>Ejercicio de edición de imágenes</h1>
+            <h1>Ejercicios de edición de imágenes</h1>
         </header>
-
+        <!-- Menú de navegación del sitio -->
         <nav></nav>
 
         <main style="background-color: lightgreen; border: 2px solid; margin: 1em">
             <article>
                 <h2 style="text-align: center">Ejercicio de prueba:</h2>
-                <figure>
-                    <img src="https://cdn.pixabay.com/photo/2024/07/21/11/36/dachshund-8910099_1280.jpg" alt="" width="600" />
+                <figure style="border: 2px solid; text-align: center; padding: 1em">
+                    <img src="https://cdn.pixabay.com/photo/2024/07/21/11/36/dachshund-8910099_1280.jpg" alt="cachorro de perro salchicha en el campo" width="600" />
 
                     <figcaption>
                         <span>Imagen de </span>
@@ -28,12 +28,14 @@
 
             <!-- Aquí comienza el segundo ejercicio -->
 
-            <article>
+            <article style="margin: 1em">
                 <h2 style="text-align: center">Ejercicios:</h2>
 
-                <h3>Imagen original</h3>
-                <figure>
-                    <img src="assets/cachorrooriginal.webp" alt="Cachorro con mirada triste" />
+                <h3>Imagen original:</h3>
+                <figure style="text-align: center">
+                    <img src="assets/cachorrooriginal.webp" alt="Cachorro con mirada triste" title="Imagen de cachorro de Pexels en Pixabay" width="600" />
+
+                    <figcaption><span>Imagen original </span><a href="https://pixabay.com/es/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1284307" target="_blank">Pexels</a> <span>en </span><a href="https://pixabay.com/service/license-summary/" target="_blank">Pixabay</a></figcaption>
                 </figure>
                 <!-- Aquí debería ir información relativa de la imagen -->
                 <p>A continuación, tienes la información relevante de la imagen:</p>
@@ -47,19 +49,33 @@
                 </ul>
 
                 <h3>Imagen reducida a 360px</h3>
-                <p>Reduzca la resolución de la imagen a 360px de ancho sin perder la proporción de la imagen.</p>
-                <figure>
-                    <img src="assets/cachorro360.webp" alt="" />
-                    <figcaption><span>Imagen de </span><a href="https://pixabay.com/es/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1284307" target="_blank">Pexels</a> <span>en </span><a href="https://pixabay.com/service/license-summary/" target="_blank">Pixabay</a></figcaption>
+
+                <p>Reduzca la resolución de la imagen a 360px de ancho sin perder la proporción de la imagen con <a href="https://www.photopea.com/">Photopea.</a></p>
+
+                <figure style="text-align: center">
+                    <img src="assets/cachorro360.webp" alt="fotografía de un cachorro de perro raza boxer con mirada triste" title="Imagen de cachorro de Pexels en Pixabay" />
+                    <figcaption><span>Imagen reducida a 360px de </span><a href="https://pixabay.com/es/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1284307" target="_blank">Pexels</a> <span>en </span><a href="https://pixabay.com/service/license-summary/" target="_blank">Pixabay</a></figcaption>
                 </figure>
 
                 <h3>Imagen girada a 45 grados</h3>
+
                 <p>Gire la imagen reducida 45 grados usando la página de Photopea y guárdala en formato ".png", luego conviertala en ".webp" con Squoosh.</p>
-                <figure>
-                    <img src="assets/cachorro45.webp" alt="" />
-                    <figcaption><span>Imagen de </span><a href="https://pixabay.com/es/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1284307" target="_blank">Pexels</a> <span>en </span><a href="https://pixabay.com/service/license-summary/">Pixabay</a></figcaption>
+
+                <figure style="text-align: center">
+                    <img src="assets/cachorro45.webp" alt="fotografía de un cachorro de perro raza boxer con mirada triste" title="Imagen de cachorro de Pexels en Pixabay" />
+                    <figcaption><span>Imagen girada a 45 grados de </span><a href="https://pixabay.com/es/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1284307" target="_blank">Pexels</a> <span>en </span><a href="https://pixabay.com/service/license-summary/">Pixabay</a></figcaption>
                 </figure>
             </article>
         </main>
+
+        <footer>
+            <address>
+                <h2>Información de contacto:</h2>
+                <ul>
+                    <li><strong>Teléfono de contacto:</strong><a href="tel:+34641394173">641 394 173</a></li>
+                    <li><strong>Correo electrónico:</strong><a href="mailto:pintografica@protonmail.com">pintografica@protonmail.com</a></li>
+                </ul>
+            </address>
+        </footer>
     </body>
 </html>

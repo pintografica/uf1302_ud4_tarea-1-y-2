@@ -1,6 +1,7 @@
-#Ejercicio imágenes en HTML5
-Hola, gente ❤️
+# Hola, gente bonita❤️
 
-Ejercicio de imágenes del curso IFCD011.
+## Ejercicio imágenes en HTML5
+
+Ejercicio de imágenes del curso **IFCD0110**.
 
 https://pintografica.github.io/uf1302_ud4_tarea-1-y-2/
